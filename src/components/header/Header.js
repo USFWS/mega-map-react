@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import logo from '../../logo.svg';
+import Logo from '../icons/Logo';
 
 const Header = (props) => {
   return (
@@ -9,7 +9,7 @@ const Header = (props) => {
         <ul className='main-nav'>
           <li>
             <a href="https://fws.gov/southeast">
-              <img src={logo} className="logo" alt="USFWS logo" />
+              <Logo />
             </a>
           </li>
           <li><Link to="/mega-map-react/map" activeClassName="active"><span>Map</span></Link></li>
