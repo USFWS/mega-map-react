@@ -15,7 +15,7 @@ class App extends React.Component {
       currentOffice: {},
       showBriefResults: false,
       randomOffice: API.randomOffice(),
-      infowindowVisible: false
+      infowindowVisible: true
     };
 
     this.selectOffice = this.selectOffice.bind(this);
