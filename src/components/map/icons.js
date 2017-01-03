@@ -2,7 +2,7 @@ import L from 'leaflet';
 import blueGooseIcon from '../../images/blue-goose.svg';
 import buildingIcon from '../../images/building.svg';
 import fisheriesIcon from '../../images/fisheries.svg';
-import usfwsIcon from '../../logo.svg';
+import Logo from '../icons/Logo';
 
 export const blueGoose = {
   icon: L.icon({
@@ -35,7 +35,7 @@ export const fisheries = {
 
 export const usfws = {
   icon: L.icon({
-    iconUrl: usfwsIcon,
+    iconUrl: Logo,
     iconSize: [70, 50],
     popupAnchor: [7, -25]
   }),
