@@ -14,11 +14,11 @@ import './css/index.css';
 render((
   // <Provider store={store}>
     <Router history={browserHistory}>
-      <Route path="/" component={App}>
+      <Route path="/mega-map-react" component={App}>
         <IndexRoute component={ListView}/>
-        <Route path="about" component={AboutPage}/>
-        <Route path="list" component={ListView}/>
-        <Route path="map" component={MapView}/>
+        <Route path="/mega-map-react/about" component={AboutPage}/>
+        <Route path="/mega-map-react/list" component={ListView}/>
+        <Route path="/mega-map-react/map" component={MapView}/>
         <Route path="*" component={ListView}/>
       </Route>
     </Router>

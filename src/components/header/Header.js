@@ -12,9 +12,9 @@ const Header = (props) => {
               <img src={logo} className="logo" alt="USFWS logo" />
             </a>
           </li>
-          <li><Link to="/map" activeClassName="active"><span>Map</span></Link></li>
-          <li><Link to="/list" activeClassName="active"><span>List</span></Link></li>
-          <li><Link to="/about" activeClassName="active"><span>About</span></Link></li>
+          <li><Link to="/mega-map-react/map" activeClassName="active"><span>Map</span></Link></li>
+          <li><Link to="/mega-map-react/list" activeClassName="active"><span>List</span></Link></li>
+          <li><Link to="/mega-map-react/about" activeClassName="active"><span>About</span></Link></li>
         </ul>
       </nav>
     </header>
