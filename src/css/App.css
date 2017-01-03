@@ -50,7 +50,7 @@
   background: #00463e;
 }
 
-.logo {
+header .logo {
   max-height: 80px;
   padding: .5em;
   transition: all .3s ease-in;
@@ -99,6 +99,27 @@
 
 .results-list h2 {
   color: #00796b;
+}
+
+/*
+  LIST VIEW
+*/
+
+.list-view {
+  margin: auto;
+  max-width: 900px;
+  padding: 2%;
+}
+
+
+/*
+  ABOUT PAGE
+*/
+
+.about-page {
+  margin: auto;
+  max-width: 900px;
+  padding: 2%;
 }
 
 /*
@@ -244,6 +265,24 @@
   z-index: -1;
 }
 
+.infowindow-intro .logo {
+  display: block;
+  height: 180px;
+  margin: 1em auto 0;
+}
+
+.infowindow-intro .icon-list {
+  font-size: 1.2em;
+  list-style: none;
+}
+
+.infowindow-intro .icon-list svg,
+.infowindow-intro .icon-list img {
+  margin: 0 .5em .5em 0;
+  vertical-align: middle;
+  width: 45px;
+}
+
 /*
   INFOWINDOW IMAGE
 */
@@ -255,6 +294,7 @@
 
 .infowindow figcaption {
   color: #00796b;
+  padding: 0 1% 1%;
   text-align: center;
 }
 
@@ -323,6 +363,64 @@
 }
 .icon.flickr .circle-right {
   fill: #0062DD;
+}
+
+.icon.blue-goose .goose {
+  fill: #003976;
+}
+
+.icon.blue-goose .background {
+  fill: #fff;
+}
+
+.icon.hatchery .water {
+  fill: #5ccae8;
+}
+
+.icon.hatchery .fish {
+  fill: #0078b9;
+}
+
+.icon.hatchery .background {
+  fill: #fff;
+}
+
+.icon.logo .sheild {
+  fill: #ecd8b3;
+  stroke: #4c3a22;
+  stroke-width: 7;
+  stroke-miterlimit: 10
+}
+
+.icon.logo .sky {
+  fill: #ffd65a;
+}
+
+.icon.logo .mountains {
+  fill: #f4b52d;
+}
+
+.icon.logo .background {
+  fill: #1d6ead;
+}
+
+.icon.logo .bubbles{
+  fill: #fff;
+}
+
+.icon.logo .swoosh {
+  fill: #fdec02;
+}
+
+.icon.logo .innersheild{
+  fill: none;
+  stroke: #4c3a22;
+  stroke-width: 7;
+  stroke-miterlimit :10;
+}
+
+.icon.logo .text {
+  fill:#5f4d3b;
 }
 
 /*
