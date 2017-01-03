@@ -34,7 +34,7 @@ const Sidecar = (props) => {
         </a>
       </li>
       <li>
-        <a href='https://github.com/usfws/' target="_blank" className='sidecar-link'>
+        <a href='https://github.com/usfws/mega-map-react' target="_blank" className='sidecar-link'>
           <span className='sidecar-label'>Code on GitHub</span>
           <Fork />
         </a>
